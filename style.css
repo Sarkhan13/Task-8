@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    background-color: black;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    background-color: rgb(211, 199, 199)
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+nav ul {
+    width: 100%;
+}
+
+div.itdevop {
+    width: 65%;
+    height: 470px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 30px;
+    background-image: url('itdevopserv.png');
+    background-size: 100%;
+    
+    
+}
+div.main {
+    display: flex;
+}
+
+.main .cataory div:hover {
+    background-color: rgb(12, 66, 12);
+}
+
+div.catagory a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+div.catagory{
+    width: 200px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    border-radius: 5px;
+}
+#cat {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px black;
+}
+#Front{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#Front:hover{
+    background-color: rgb(9, 104, 9); 
+}
+#back{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#back:hover{
+    background-color: rgb(13, 112, 13);    
+}
+#deploy{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#deploy:hover{
+    background-color: rgb(12, 105, 12);
+}
+#ip{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#ip:hover{
+    background-color: rgb(13, 110, 13); 
+}
+
+#network{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#network:hover{
+    background-color: rgb(15, 107, 15);
+}
+
+
+div.contain {
+    background-color: rgb(241, 236, 236);
+    width: 65%;
+    margin: auto;
+    margin-left: 450px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    padding: 20px;
+}
+
+div.text{
+    margin: auto;
+    margin-left: 450px;
+    margin-top: 15px;
+    border-left: 4px red solid;
+    font-size: 22px;
+    
+}
+div.ip {
+    margin-top: 20px;
+}
+div.web {
+    margin-left: 20px;
+}
